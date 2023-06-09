@@ -1,0 +1,228 @@
+.poster {
+    position: absolute;
+    background-color: #0B7077;
+    width: 1080px;
+    height: 1080px;
+    left: 145px;
+    right: 145px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.title h1 {
+    position: absolute;
+    width: 673px;
+    height: 270px;
+    top: 151px;
+    left: 141px;
+    font-family: 'Poppins';
+    font-size: 128px;
+    color: #FFFFFF;
+    font-style: normal;
+    /* font-weight: 600px; */
+    line-height: 145px;
+}
+
+.sub-title h3 {
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-size: 50px;
+    font-weight: 500;
+    left: 141px;
+    top: 496px;
+}
+
+.vector {
+    position: absolute;
+    width: 376px;
+    height: 224px;
+    left: 414px;
+    top: 588px;
+}
+
+.courses {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 54px;
+    top: 645px;
+    left: 141px;
+}
+
+.web {
+    background-color: #C5D8A4;
+    width: 135px;
+    height: 64px;
+    border-radius: 15px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.web h5 {
+    text-align: center;
+    margin-top: 2px;
+    padding: 20px;
+    font-family: 'poppins';
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.app {
+    background: #FFFFFF;
+    width: 135px;
+    height: 64px;
+    border-radius: 15px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.app h5 {
+    text-align: center;
+    margin-top: 2px;
+    padding: 20px;
+    font-family: 'poppins';
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    color: #113E21;
+   
+}
+
+.application {
+    background: #FFFFFF;
+   
+    width: 171px;
+    height: 64px;
+    border-radius: 15px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.application h5 {
+    text-align: center;
+    margin-top: 2px;
+    padding: 20px;
+    font-family: 'poppins';
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    color: #113E21;
+    ;
+}
+
+.gmail {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 471px;
+    height: 71px;
+    border-radius: 20px;
+    margin-top: 829px;
+    margin-left: 545px;
+}
+
+.gmail img {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    padding: 20px;
+}
+
+.gmail h4 {
+    margin-left: 73px;
+    margin-top: 19px;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.logo {
+    position: absolute;
+    top: 990px;
+    left: 86px;
+
+}
+
+.logo img {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+}
+
+.info {
+    position: absolute;
+    top: 962px;
+    left: 156px;
+}
+
+.info h5 {
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.info p {
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-top: -26px;
+}
+
+.save {
+    position: absolute;
+    bottom: 18px;
+    right: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.save img {
+    width: 23px;
+    height: 30px;
+}
+
+.save p {
+    margin-top: 2px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+@media screen and (max-width: 1300px){
+    .poster {
+        position: inherit;
+    }
+    .info {
+        position: absolute;
+        left: 201px;
+    }
+    .logo {
+        position: absolute;
+        top: 990px;
+        left: 129px;
+    
+    }
+    .save {
+        position: absolute;
+        top: 996px;
+    left: 839px;
+    right: auto;
+    bottom: auto;
+        
+    } 
+    .save p{
+        white-space: nowrap
+        
+    } 
+}
